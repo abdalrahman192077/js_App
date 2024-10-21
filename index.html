@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PO</title>
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="header-divs">
+			<div class="main-header">
+				<a href="index.html">PO</a>
+				<ul>
+					<li><a id="login" href="login.html?show=login">Login</a></li>
+					<li><a id="signup" href="login.html?show=signup">Sign UP</a></li>
+					<li><a id="logout" href="login.html?show=logout">Logout</a></li>
+				</ul>
+			</div>
+	
+			<div class="second-header">
+				<ul>
+					<li><a href="#test">Tests</a></li>
+					<li><a href="#games">Games</a></li>
+					<li><a href="#to-do">To Do List</a></li>
+					<li><a href="#coins">Coins</a></li>
+					<li><a href="#repos">Github Repos</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="header-imgs">
+			<img decoding="async" src="images/memory.jpeg" alt="" />
+			<img decoding="async" src="images/currency.jpg" alt="" />
+			<img decoding="async" src="images/typing test.webp" alt="" />
+			<img decoding="async" src="images/github (2).png" alt="" />
+			<img decoding="async" src="images/hangman.jpeg" alt="" />
+				<div class="img-icon">
+					<i id="prev" class="fa-solid fa-angle-left prev"></i>
+					<i id="next" class="fa-solid fa-angle-right next"></i>
+				</div>
+				<span id="indicators" class="indicators"></span>
+		</div>
+	</header>
+	<h2 id="test" >Tests</h2>
+	<div class="tests">
+		<div class="typing-test"><img src="images/typing game.jpg" alt=""><div class="img-covor"><span>Typing Test</span><a href="test.html?test=typing">Test</a></div></div>
+		<div class="programming-test"><img src="images/html css js.png" alt=""><div class="img-covor"><span>Programming Test</span><a href="test.html?test=propramming">Test</a></div></div>
+	</div>
+
+	<h2 id="games" >Games</h2>
+	<div class="games">
+		<div class="memory"><img src="images/memory. gamejpeg.jpg" alt=""><div class="img-covor"><span>Memory Game</span><a href="game.html?game=memory">Play</a></div></div>
+		<div class="haungman"><img src="images/game haungman.jpg" alt=""><div class="img-covor"><span>Haungman Game</span><a href="game.html?game=haungman">Play</a></div></div>
+	</div>
+
+	<h2 id="to-do" >To Do List</h2>
+	<div class="to-do-container">
+		<div class="form">
+			<input type="text" class="input" />
+			<input type="submit" class="add" value="Add Task" />
+		</div>
+		<div class="tasks"></div>
+		<br><br><br><br>
+	</div>
+
+	<h2 id="coins" >Currency Converter</h2>
+	<div class="coins">
+		<div class="request_is">
+			<div><input min="0" value="1" type="number"/></div>
+			<div><select id="from-select"></select></div>
+			<div><select id="to-select"></select></div>
+		<input class="submit-coin" type="submit" value="Convert" />
+		</div>
+		<div class="respons_is">
+			<label ></label> <span></span>
+		</div>
+	</div>
+
+	<h2 id="repos" >Github Repos</h2>
+	<div class="repos-container">
+		<div class="get-repos">
+			<input type="text" placeholder="Github Username">
+			<span class="get-button">Get Repos</span>
+		</div>
+		<div class="show-data">
+			<span>No Data To Show</span>
+		</div>
+	</div>
+	<br><br><br><br><br><br><br><br><br>
+	<br><br><br><br>
+	<script src="js/main.js"></script>
+</body>
+</html>

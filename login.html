@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Authentication</title>
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/authenticationjs.css">
+</head>
+<body>
+	<div class="login-box">
+		<div class="login-head">
+			<i class="fa-solid fa-circle-user"></i>
+		</div>
+		<div class="login-body">
+			<form action="login.html?show=login">
+				<div class="name-div"><span><i class="fa-solid fa-user"></i></span><input type="text" placeholder="Username" required="required"> </div>
+			  <div class="pass-div"><span><i class="fa-solid fa-lock"></i></span><input type="password" placeholder="Password" required="required"></div> 
+				<div class="submit-div"><input type="submit" value="Login"></div>
+			</form>
+		</div>
+		<div class="errors"></div>
+	</div>
+
+
+	<div class="signup-box">
+		<div class="signup-head">
+			<i class="fa-solid fa-address-card"></i>
+		</div>
+		<div class="signup-body">
+			<form action="login.html?show=signup">
+				<div class="name-div"><span><i class="fa-solid fa-user"></i></span><input minlength="1" type="text" placeholder="Username" required="required"> </div>
+			  <div class="pass-div"><span><i class="fa-solid fa-lock"></i></span><input minlength="8" type="password" placeholder="Password" required="required"></div> 
+				<div class="email-div"><span><i class="fa-solid fa-at"></i></span><input type="email" placeholder="Email" required="required"> </div>
+				<div class="submit-div"><input type="submit" value="Sign Up"></div>
+			</form>
+		</div>
+		<div class="errors"></div>
+	</div>
+	<script src="js/authentication.js"></script>
+</body>
+</html>

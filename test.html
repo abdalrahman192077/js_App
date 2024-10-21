@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tests</title>
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/tests.css">
+</head>
+<body>
+	<div class="typing-test">
+		<div class="name"><p>Typing Speed Test Game</p></div>
+		<div class="container">
+			<div class="message">
+				You Are Testing On
+				<span class="lvl"></span> Level
+				& You Have <span class="seconds"></span> Seconds To Type The Word
+				<select id="level-select">
+					<option value="Easy">Easy</option>
+					<option selected value="Normal">Normal</option>
+					<option value="Hard">Hard</option>
+				</select> 
+			</div>
+			<div class="start">Start Test</div>
+			<div class="the-word"></div>
+			<input type="text" class="input" />
+			<div class="upcoming-words">Words Will Show Here</div>
+			<div class="control">
+				<div class="time">Time Left: <span></span> Seconds</div>
+				<div class="score">
+					Score: <span class="got">0</span> From <span class="total"></span>
+				</div>
+			</div>
+			<div class="finish"></div>
+		</div>
+	</div>
+	
+	<div class="quiz-app">
+		<div class="quiz-info">
+			<div class="category">Category: <span>HTML</span></div>
+			<div class="count">Questions Count: <span></span></div>
+		</div>
+		<div class="quiz-area"></div>
+		<div class="answers-area"></div>
+
+		<button class="submit-button">Submit Answer</button>
+		<div class="bullets">
+			<div class="spans"></div>
+			<div class="countdown"></div>
+		</div>
+		<div class="results"></div>
+	</div>
+</body>
+
+<script src="js//tests.js"></script>
+</html>
