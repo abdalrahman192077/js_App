@@ -103,24 +103,6 @@
 	line-height: 200px;
 	position: relative;
 }
-.memory-game-blocks .game-block .front:before {
-	content: '?';
-	color: #FFF;
-	font-size: 140px;
-	font-weight: bold;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	height: 80%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-}
 .memory-game-blocks .game-block .back {
 	background-color: #607D8B;
 	transform: rotateY(180deg);
